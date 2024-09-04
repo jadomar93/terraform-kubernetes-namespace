@@ -4,8 +4,9 @@
 ```
 
 module "example" {
-  source = "../"
+  source = "jadomar93/namespace/kubernetes"
   name   = "my-first-namespace"
+  number_of_pods = 36
 }
 ```
 ### run the follwing commands
